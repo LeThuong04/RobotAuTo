@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.6 on win32)" generated="2025-04-26T21:02:40.735146" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="C:\Users\THUONG\Desktop\robot">
+<suite id="s1-s1" name="Login Test Orange" source="C:\Users\THUONG\Desktop\robot\login_test_orange.robot">
+<test id="s1-s1-t1" name="// Đăng nhập thành công" line="13">
+<kw name="Mở trình duyệt">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-04-26T21:02:41.104328" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-04-26T21:02:41.104328" elapsed="2.419125"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2025-04-26T21:02:43.526969" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</msg>
+<msg time="2025-04-26T21:02:43.558709" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2025-04-26T21:02:43.523453" elapsed="0.043763">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-04-26T21:02:43.567216" elapsed="0.001006"/>
+</kw>
+<status status="FAIL" start="2025-04-26T21:02:41.103312" elapsed="2.465905">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</status>
+</kw>
+<kw name="Đăng nhập">
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2025-04-26T21:02:43.570214" elapsed="0.000996"/>
+</kw>
+<kw name="Kiểm tra đăng nhập thành công">
+<status status="NOT RUN" start="2025-04-26T21:02:43.572207" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-04-26T21:02:41.101179" elapsed="2.472025">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</status>
+</test>
+<doc>Test case for login page orange.com</doc>
+<status status="FAIL" start="2025-04-26T21:02:40.759240" elapsed="2.818460"/>
+</suite>
+<status status="FAIL" start="2025-04-26T21:02:40.739480" elapsed="2.840601"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot" id="s1" pass="0" fail="1" skip="0">Robot</stat>
+<stat name="Login Test Orange" id="s1-s1" pass="0" fail="1" skip="0">Robot.Login Test Orange</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-26T21:02:43.526969" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69F34EFA5+77893]
+	GetHandleVerifier [0x00007FF69F34F000+77984]
+	(No symbol) [0x00007FF69F1191BA]
+	(No symbol) [0x00007FF69F0F1B63]
+	(No symbol) [0x00007FF69F19E92E]
+	(No symbol) [0x00007FF69F1BE972]
+	(No symbol) [0x00007FF69F196F03]
+	(No symbol) [0x00007FF69F160328]
+	(No symbol) [0x00007FF69F161093]
+	GetHandleVerifier [0x00007FF69F607B6D+2931725]
+	GetHandleVerifier [0x00007FF69F602132+2908626]
+	GetHandleVerifier [0x00007FF69F6200F3+3031443]
+	GetHandleVerifier [0x00007FF69F3691EA+184970]
+	GetHandleVerifier [0x00007FF69F37086F+215311]
+	GetHandleVerifier [0x00007FF69F356EC4+110436]
+	GetHandleVerifier [0x00007FF69F357072+110866]
+	GetHandleVerifier [0x00007FF69F33D479+5401]
+	BaseThreadInitThunk [0x00007FFAF01C257D+29]
+	RtlUserThreadStart [0x00007FFAF17CAF08+40]
+</msg>
+</errors>
+</robot>
